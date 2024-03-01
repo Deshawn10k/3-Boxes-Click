@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  gap: 20px;
+}
+li {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
+
+.reset-button{
+  display: flex;
+  margin-left: 20px;
+}
